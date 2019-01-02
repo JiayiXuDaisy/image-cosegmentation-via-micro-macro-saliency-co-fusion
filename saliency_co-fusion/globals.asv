@@ -1,0 +1,12 @@
+% SETUP PARAMETERS
+feat_dim = 406; % dimensionality of features
+param = struct;
+param.gamma = 1 / sqrt(feat_dim); % weight for distance -> similarity matrix
+param.lambda = 1;
+param.num_parts=50;
+param.tt = 1;
+param.color=0;
+base_dir = pwd;
+tmp_dir = [base_dir '/tmp/']; % temporary directory for saving files
+
+

@@ -1,0 +1,1 @@
+HSaliency .\src\*.jpg .\src\sal\
